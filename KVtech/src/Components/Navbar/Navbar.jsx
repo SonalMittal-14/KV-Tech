@@ -19,8 +19,12 @@ function Navbar() {
       <ul className="flex space-x-4 list-none text-2xl font-sans">
         <li className="text-white">Trainings</li>
         <li className="text-white">Services</li>
-        <li className="text-white">Log In</li>
       </ul>
+
+      <button className='bg-cyan-900 hover:bg-cyan-950 text-2xl text-white font-bold py-2 px-4 rounded-full'>Log In</button>
+        {/* <li className="text-white">Log In</li> */}
+
+  
 
       <button className="bg-cyan-900 hover:bg-cyan-950 text-2xl text-white font-bold py-2 px-4 rounded-full">
         Sign Up
