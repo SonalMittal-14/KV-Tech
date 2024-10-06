@@ -1,15 +1,15 @@
 import React from 'react';
 import { IoSearch } from "react-icons/io5";
-import Logo3 from "./Logo3.png"
+
 function Navbar() {
   return (
-    <div className='flex items-center h-24 space-x-4  p-4'>
-      <img src={Logo3} alt=""  className='w-40'/>
+    <div className='flex items-center space-x-4  p-4'>
+      <img src=" alt="" />
 
       <div className='relative flex-1'>
         <form action="/action_page.php" className='flex items-center'>
           <IoSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-white text-2xl" />
-          <input className='bg-zinc-800 w-[80%] text-white text-2xl rounded-lg pl-10 py-2 w-96' type="text" placeholder="What do you want to learn today?" name="search" />
+          <input className='bg-zinc-800 w-[80%] text-white text-2xl rounded-lg pl-10 py-2 w-full' type="text" placeholder="What do you want to learn today?" name="search" />
         </form>
       </div>
 

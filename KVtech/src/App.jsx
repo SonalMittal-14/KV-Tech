@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import './App.css'
-import Navbar from './Components/Navbar/Navbar'
 import HeroPage from './Components/HeroPage/HeroPage'
 import { Navigate } from 'react-router-dom'
 import Login from './Components/Login/Login'
@@ -11,11 +9,12 @@ function App() {
 
   return (
     <>
+    {/* <Navbar/> */}
     <Routes>
       <Route path='/' element= {<Navigate to='/login'/>}/>
-      <Route path='/login' element= {<Login/>}/>
-      <Route path='/signup' element= {<Signup/>}/>
-      <Route path='/home' element= {<HeroPage/>}/>
+      <Route path='/login' element = {<Login/>}/>
+      <Route path='/signup' element = {<Signup/>}/>
+      <Route path='/home' element = {<HeroPage/>}/>
       
     </Routes>
     </>
