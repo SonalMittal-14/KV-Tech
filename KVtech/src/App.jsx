@@ -8,7 +8,7 @@ import { Routes,Route } from 'react-router-dom'
 function App() {
 
   return (
-    <>
+    <div className='px-14'>
     {/* <Navbar/> */}
     <Routes>
       <Route path='/' element= {<Navigate to='/login'/>}/>
@@ -17,7 +17,7 @@ function App() {
       <Route path='/home' element = {<HeroPage/>}/>
       
     </Routes>
-    </>
+    </div>
   )
 }
 
